@@ -1,18 +1,59 @@
+.container {
+  width: 100%;
+  position: relative;
+}
+
+nav {
+  background-color: white;
+  height: 30px;
+}
+
+.input[type=text] {
+  width: 130px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]{
+  width: 450px;
+  margin: 0 auto 0 auto;
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
-}
-li {
-  float: right;
+  background-color: white;
 }
 
-a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
+li {
+  list-style: none;
+}
+
+li a {
   text-decoration: none;
+  font-family: arial;
+  color: #ABABAB;
+  float: right;
+  padding: 5px;
+  font-size: 13px;
+  font_weight: 600;
+  margin-top: 2px;
+  margin-right: 13px;
+}
+
+img {
+  width: 392px;
+  height: 203px;
+  border: 0px;
+  padding-top: 0px;
+  margin: 195px auto 0 auto;
+  display: block;
 }
