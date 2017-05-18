@@ -14,6 +14,19 @@ nav {
   transition: width 0.4s ease-in-out;
 }
 
+button {
+  background-color: white;
+  text-align: center;
+  font-family: arial;
+  display: inline-block;
+  width: 250px;
+  margin: 0 auto 0 auto;
+  border-style: ridge;
+  border-width: 5px;
+  border-color: #efeff5
+
+}
+
 input[type=text]{
   width: 450px;
   margin: 0 auto 0 auto;
@@ -56,4 +69,10 @@ img {
   padding-top: 0px;
   margin: 195px auto 0 auto;
   display: block;
+}
+
+.button1 {
+  width: 300px;
+  margin: auto;
+  display: inline-block;
 }
